@@ -19,7 +19,7 @@ export default function App() {
     //   {/* Backend Status Banner / Toast */}
     //   <BackendStatus />
   )
-      {/* Navigation */}
+      /* Navigation */
       <nav className="nav">
         <Link to="/" className="brand">
           <img src="/src/assets/logo.svg" alt="logo" />
