@@ -9,6 +9,7 @@ import Wallet from './pages/Wallet.jsx'
 import Profile from './pages/Profile.jsx'
 import CreateChallenge from './pages/CreateChallenge.jsx'
 import AdminPanel from './pages/AdminPanel.jsx'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
