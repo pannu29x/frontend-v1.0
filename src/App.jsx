@@ -11,10 +11,6 @@ export default function App() {
   const me = token ? JSON.parse(atob(token.split('.')[1])) : null
   function logout(){ localStorage.removeItem('token'); nav('/login')}
   return (
-     <>
-      <BackendStatus />
-      {/* Rest of your app */}
-    </>
   
 
     <div style={{fontFamily:'system-ui, sans-serif'}}>
