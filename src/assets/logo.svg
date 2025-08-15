@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="32" viewBox="0 0 256 64" fill="none">
+  <rect width="256" height="64" rx="12" fill="#0f1115"/>
+  <path d="M24 44L40 20l16 24" stroke="#FFD166" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="42" font-family="Inter, Arial, sans-serif" font-size="28" fill="#FFD166">ChallengeGram</text>
+</svg>
