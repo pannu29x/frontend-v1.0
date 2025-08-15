@@ -2,16 +2,6 @@ import React from 'react'
 import { Outlet, Link, useNavigate } from 'react-router-dom'
 import BackendStatus from "./components/BackendStatus";
 
-function App() {
-  return (
-    <>
-      <BackendStatus />
-      {/* Rest of your app */}
-    </>
-  );
-}
-
-export default App;
 
 
 const API = import.meta.env.VITE_API_BASE || 'https://challengegram-v1-0.onrender.com/api'
@@ -21,6 +11,12 @@ export default function App() {
   const me = token ? JSON.parse(atob(token.split('.')[1])) : null
   function logout(){ localStorage.removeItem('token'); nav('/login')}
   return (
+     <>
+      <BackendStatus />
+      {/* Rest of your app */}
+    </>
+  );
+}
     <div style={{fontFamily:'system-ui, sans-serif'}}>
       <nav className="nav">
         <Link to="/" className="brand">
