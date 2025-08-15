@@ -15,7 +15,7 @@ export default function App() {
       <BackendStatus />
       {/* Rest of your app */}
     </>
-  );
+  
 }
     <div style={{fontFamily:'system-ui, sans-serif'}}>
       <nav className="nav">
