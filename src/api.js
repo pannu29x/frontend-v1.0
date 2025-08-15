@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api'
+const API = import.meta.env.VITE_API_BASE || 'https://challengegram-v1-0.onrender.com/api'
 export const api = axios.create({ baseURL: API })
 api.interceptors.request.use(config => {
   const t = localStorage.getItem('token')
