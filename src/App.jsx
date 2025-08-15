@@ -1,7 +1,20 @@
 import React from 'react'
 import { Outlet, Link, useNavigate } from 'react-router-dom'
+import BackendStatus from "./components/BackendStatus";
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api'
+function App() {
+  return (
+    <>
+      <BackendStatus />
+      {/* Rest of your app */}
+    </>
+  );
+}
+
+export default App;
+
+
+const API = import.meta.env.VITE_API_BASE || 'https://challengegram-v1-0.onrender.com/api'
 export default function App() {
   const nav = useNavigate()
   const token = localStorage.getItem('token')
