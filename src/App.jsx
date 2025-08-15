@@ -16,7 +16,7 @@ export default function App() {
       {/* Rest of your app */}
     </>
   
-}
+
     <div style={{fontFamily:'system-ui, sans-serif'}}>
       <nav className="nav">
         <Link to="/" className="brand">
