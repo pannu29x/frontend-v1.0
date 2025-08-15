@@ -18,7 +18,7 @@ export default function App() {
     // <div style={{ fontFamily: 'system-ui, sans-serif' }}>
     //   {/* Backend Status Banner / Toast */}
     //   <BackendStatus />
-
+  )
       {/* Navigation */}
       <nav className="nav">
         <Link to="/" className="brand">
